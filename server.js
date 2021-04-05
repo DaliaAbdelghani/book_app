@@ -11,6 +11,18 @@ app.use(cors());
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 
+const sql = require('mysql');
+//test the connection 
+var con = sql.createConnection({
+  host: "localhost",
+  user: "yourusername",
+  password: "yourpassword"
+});
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+});
+
 app.set('view engine', 'ejs');
 
 app.listen(PORT, () => {
