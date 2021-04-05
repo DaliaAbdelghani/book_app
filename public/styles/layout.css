@@ -1,0 +1,11 @@
+body { background-color: grey;align-content: center;}
+
+h1, h3 {color: white; height: 15vh; text-align: center;font-size: x-large;}
+
+h1, footer section  {background-color: black;}
+
+h3 {background-color:rgb(75, 72, 72) ;}
+
+
+
+form {position: absolute;border:solid; border-color: cornsilk;margin-left: 42%;padding: 25px;margin-top: 15vh;font-size: large;}
