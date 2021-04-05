@@ -1,0 +1,14 @@
+@import 'layout.css';
+@import 'modules.css';
+
+
+body { background-color: grey;}
+
+h1, h3 {color: white;}
+
+h1, footer section  {background-color: black;}
+
+h3 {background-color:rgb(75, 72, 72) ;}
+
+
+

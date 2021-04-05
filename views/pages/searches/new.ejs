@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>Book App</title>
+<link rel="stylesheet" href="/public/styles/base.css">
+</head>
+<body>
+    <header>
+         <h1>Best Books ! </h1>
+         <h3>Search By Title or Author</h3>
+    </header>
+    <main>
+        <form action="" method="get" class="form-example">
+        <input type= 'text' value = "Enter a title or author" ><br>
+        <label for="Title">Title</label><br>
+        <input type="radio" name="selection" value="Title">
+        <label for="Author">Title</label><br>
+        <input type="radio"  name="selection" value="Author"><br>
+        <input type ="submit" value= "Search the Google Books API">
+        </form>
+    </main>
+    <footer><section></section></footer>
+</body>
+</html>
+res.send(ejs.render (template,data));
